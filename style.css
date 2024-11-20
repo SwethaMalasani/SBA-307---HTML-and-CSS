@@ -1,0 +1,146 @@
+html{
+    background-color: aquamarine;
+    text-align: center;
+}
+h1{
+    color: brown;
+}
+img{
+    width:10%;
+    height:20vh;
+}
+nav{
+    justify-content: space-between;
+    background-color:cornflowerblue;
+}
+.Dropdownimagesmain{
+    background-color: aquamarine;
+   /* border: light gray;*/
+    height: 30vh;
+    display: flex;
+    flex-wrap: wrap;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: 3;
+}
+
+@keyframes example {
+    from {background-color: aquamarine;}
+    to {background-color: lightpink;}
+  }
+.DropdownImages1{
+   /* border: solid gray;*/
+    height: 25vh;
+    width: 25%;
+   
+}
+.DropdownImages1>img{
+    /*border: solid gray;*/
+    height: 25vh;
+    width: 60%;
+    border-radius: 50%;
+}
+.DropdownImages2{
+    /*border: solid gray;*/
+    height: 25vh;
+    width: 25%;
+}
+.DropdownImages2>img{
+    /*border: solid gray;*/
+    height: 25vh;
+   width:60%;
+   border-radius: 50%;
+}
+.DropdownImages3{
+    /*border: solid gray;*/
+    height: 25vh;
+    width: 25%;
+}
+.DropdownImages3>img{
+    /*border: solid gray;*/
+    height: 25vh;
+   width:60%;
+   border-radius: 50%;
+}
+
+.DropdownImages4{
+   /* border: solid gray;*/
+    height: 25vh;
+    width: 25%;
+}
+.DropdownImages4>img{
+   /* border: solid gray;*/
+    height: 25vh;
+    width:60%;
+    border-radius: 50%;
+}
+.tablemain{
+    /*border:solid gray;*/
+    height: 30vh;
+}
+.container{
+    /*border: solid gray;*/
+    height: 4vh;
+    color:brown;
+    font-weight:bold;
+}
+.Radiobutton{
+    /*border:solid gray;
+   /* height:10vh;*/
+   height:auto;
+    background-color: aquamarine;
+}
+.Radiobutton > p{
+font-weight: bold;
+text-align:left;
+}
+
+.form-check{
+    /*border:solid gray;*/
+    /*height:10vh;*/
+    text-align: left;
+}
+.signupclass{
+    /*border:light gray;*/
+    height:40vh;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+}
+input[type=text]{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit]{
+    padding: 14px 20px;
+    background-color: pink;
+}
+.Radiobutton{
+    display: flex;
+}
+.form-check>img{
+   width:50%;
+}
+.kidschinese{
+    /*border:light gray;*/
+    height: 30vh;
+    background-color: aquamarine;
+    display: block;
+   /* text-align: center;*/
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: 3;
+}
+
+h2{
+    background-color: aquamarine;
+}
+.backbutton{
+    height: 4vh;
+    background-color: aquamarine;
+}
